@@ -3,6 +3,8 @@ import numpy as np
 from gymnasium import spaces
 from dataclasses import dataclass
 from typing import List, Tuple, Optional
+import pygame
+
 
 @dataclass
 class Vehicle:

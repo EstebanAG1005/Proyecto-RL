@@ -1,6 +1,8 @@
 import gymnasium as gym
 from gymnasium import spaces
 import numpy as np
+import pygame
+
 
 class HighwayEnv(gym.Env):
     def __init__(self, n_lanes=4, road_length=1000, max_speed=10, safe_distance=10):
